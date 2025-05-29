@@ -18,7 +18,7 @@ const Project = ({ className }) => {
         <div className="flex flex-col ml-2">
           <div className="font-bold text-base sm:text-lg">PINNACLE | CORPORATE WEBSITE</div>
           <div className="text-sm flex flex-row flex-wrap items-center gap-1">
-            Татьяна Туманова &nbsp; • &nbsp; Follow
+            <span className="cursor-pointer hover:border-b">Татьяна Туманова</span> &nbsp; • &nbsp; <span className="cursor-pointer hover:border-b" >Follow</span>
           </div>
         </div>
       </div>

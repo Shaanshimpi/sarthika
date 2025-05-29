@@ -8,7 +8,7 @@ import { FaPlusCircle } from "react-icons/fa";
 const Tools = () => {
     return (
         <>
-        <div className="hidden md:block pl-5 mt-36 text-xs text-gray-500">
+        <div className="hidden md:block pl-5 mt-32 text-xs text-gray-500">
             <div className="border relative border-gray-300 w-13 h-13 rounded-full"><FaPlusCircle color='blue' size={15} className='absolute right-0 bottom-0'/></div>
             <p className="ml-2 mt-1">Follow</p>
             <div className="border mt-6 border-gray-300 w-13 h-13 rounded-full flex items-center justify-center"><IoIosMail size={20} color='black'/></div>
